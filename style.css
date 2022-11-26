@@ -32,7 +32,7 @@ a {
 
 .nav {
     display: flex;
-    width: 600px;
+    width: 500px;
     justify-content: space-between;
 }
 
@@ -41,7 +41,7 @@ a {
 }
 
 .nav a:hover {
-    color: hsl(35, 77%, 62%);
+    color: hsl(5, 85%, 63%);
 }
 
 .main{
@@ -87,7 +87,7 @@ a {
     margin-top: 100px;
     width: 40%;
     background-color:hsl(5, 85%, 63%);
-    padding: 15px;
+    padding: 17px;
     text-align: center;
     text-transform: uppercase;
     color: hsl(36, 100%, 99%);
@@ -112,7 +112,7 @@ a {
 .title {
     font-size: 40px;
     color: hsl(35, 77%, 62%);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .news {
@@ -132,7 +132,7 @@ a {
 }
 
 .news-item p{
-    line-height: 30px;
+    line-height: 25px;
     margin-bottom: 50px;
     color: hsl(233, 8%, 79%);
 }
@@ -147,4 +147,47 @@ a {
 
 .news-item a:hover{
     color:hsl(35, 77%, 62%);
+}
+
+.cards{
+    margin-top: 60px;
+    display: flex;
+    gap: 100px;
+}
+
+.cards img{
+    width: 120px;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+}
+
+.card-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-number{
+    color: hsl(233, 8%, 79%);
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card-description a {
+    font-weight: 800;
+    font-size: 20px;
+    color: hsl(240, 100%, 5%);
+}
+
+.card-description a:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.card-description p{
+    color: hsl(236, 13%, 42%);
+    line-height: 30px;
 }
